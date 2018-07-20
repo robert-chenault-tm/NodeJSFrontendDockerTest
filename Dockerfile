@@ -2,7 +2,7 @@ FROM alpine
 
 LABEL maintainer="robert.chenault.tm@gmail.com"
 
-RUN apk add --update nodejs nodejs -npm
+RUN apk add --update nodejs nodejs-npm
 
 COPY . /src
 
